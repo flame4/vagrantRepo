@@ -15,5 +15,5 @@ su -c "/srv/redis/bin/redis-server /usr/local/src/redis-3.2.5/redis.conf"
 su -c "/usr/bin/mongod -dbpath=/data/mongo/ --port=27017 --fork --logpath=/var/log/mongodb/mongodb.log"
 ```
 
-有关更详细的使用方法,请参考[我的博客](flame4.github.io).
+有关更详细的使用方法,请参考[我的博客](https://flame4.github.io).
 
