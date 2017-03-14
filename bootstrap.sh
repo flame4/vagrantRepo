@@ -184,7 +184,7 @@ cp -frp /usr/lib64/libldap* /usr/lib/
 	    	--without-pear \
 	    	--enable-sockets
  
-make ZEND_EXTRA_LIBS='liconv'
+make ZEND_EXTRA_LIBS='-liconv'
 make install 
 ### php with mysql
 yum -y install php-mysql php-gd libjpeg* php-ldap php-odbc php-pear php-xml php-xmlrpc php-mbstring php-bcmath php-mhash
